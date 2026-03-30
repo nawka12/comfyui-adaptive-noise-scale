@@ -1,0 +1,13 @@
+[project]
+name = "comfyui-adaptive-noise-scale"
+version = "1.0.0"
+description = "Adaptive Noise Scale sampler wrapper for ComfyUI — port of sd-webui-adaptive-noise-scale"
+requires-python = ">=3.10"
+dependencies = ["torch"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
