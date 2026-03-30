@@ -4,9 +4,21 @@ version = "1.0.0"
 description = "Adaptive Noise Scale sampler wrapper for ComfyUI — port of sd-webui-adaptive-noise-scale"
 requires-python = ">=3.10"
 dependencies = ["torch"]
+license = {file = "LICENSE"}
 
 [project.optional-dependencies]
 dev = ["pytest"]
+
+[project.urls]
+Repository = "https://github.com/nawka12/comfyui-adaptive-noise-scale"
+Documentation = "https://github.com/nawka12/comfyui-adaptive-noise-scale/wiki"
+"Bug Tracker" = "https://github.com/nawka12/comfyui-adaptive-noise-scale/issues"
+
+[tool.comfy]
+PublisherId = "kayfahaarukku"
+DisplayName = "ComfyUI-Adaptive-Noise-Scale"
+Icon = ""
+includes = []
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
